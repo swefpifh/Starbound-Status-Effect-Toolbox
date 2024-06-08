@@ -2,6 +2,5 @@
   "name" : "sadRedHeadArrow",
   "effectConfig" : {},
   "defaultDuration" : 5,
-  "scripts" : [ "sadRedHeadArrow.lua" ],
   "animationConfig" : "sadRedHeadArrow.animation"
 }

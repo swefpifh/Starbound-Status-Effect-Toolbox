@@ -13,20 +13,15 @@
       }
     },
     "parts": {
-      "arrow": {
+      "arrowState": {
         "properties": {
           "image": "sadRedHeadArrow.png:default.<frame>",
           "centered": true,
           "fullbright": true,
-          "offset": [0, 3]  // Adjust this offset as needed to position the arrow above the head
+          "offset": [0, 3],  // Adjust this offset as needed to position the arrow above the head
+		  "zLevel" : 5
         }
       }
-    }
-  },
-
-  "animatedPartStates": {
-    "arrow": {
-      "arrowState": "visible"
     }
   }
 }
