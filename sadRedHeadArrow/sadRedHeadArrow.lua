@@ -1,11 +1,12 @@
 function init()
+  sb.logInfo("-------- Initializing arrow animation")
   animator.setAnimationState("arrowState", "visible")
 end
 
 function update(dt)
-  -- Pas besoin de mise à jour spécifique ici
+  sb.logInfo("-------- Updating arrow animation")
 end
 
 function uninit()
-  -- Nettoyage si nécessaire
+  sb.logInfo("-------- Uninitializing arrow animation")
 end

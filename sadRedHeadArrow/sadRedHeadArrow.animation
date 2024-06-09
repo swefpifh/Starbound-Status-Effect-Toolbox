@@ -7,7 +7,8 @@
           "visible": {
             "frames": 6,
             "cycle": 0.6,
-            "mode": "loop"
+            "mode": "loop",
+			"properties" : {}
           }
         }
       }
@@ -15,11 +16,21 @@
     "parts": {
       "arrowState": {
         "properties": {
-          "image": "sadRedHeadArrow.png:default.<frame>",
+          
           "centered": true,
           "fullbright": true,
-          "offset": [0, 3],  // Adjust this offset as needed to position the arrow above the head
-		  "zLevel" : 5
+          "offset": [0, 3],
+		  "zLevel" : 2
+        },
+
+        "partStates" : {
+          "arrowState" : {
+            "visible" : {
+              "properties" : {
+                "image": "sadRedHeadArrow.png:default.<frame>"
+              }
+            }
+          }
         }
       }
     }
