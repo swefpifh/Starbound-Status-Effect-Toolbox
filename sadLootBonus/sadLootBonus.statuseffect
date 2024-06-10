@@ -1,0 +1,13 @@
+{
+  "name" : "sadLootBonus",
+  "defaultDuration" : 10, // Duration of status effect
+
+  "scripts" : [ "sadLootBonus.lua" ],
+  "scriptDelta" : 60,
+
+  "effectConfig": {
+	"statusEffectEnable": "1", 	// 1=activated 0=desactivated
+	"statusEffectID": "glow",	// luminous effect by default
+	"treasurePoolsID": "myCustomTreasurePoolsID" // Vanilla loot table system
+  }
+}

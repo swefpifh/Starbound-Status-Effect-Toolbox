@@ -1,0 +1,10 @@
+{
+"myCustomTreasurePoolsID" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["ironbar", 1]},
+        {"weight" : 0.5, "item" : ["goldbar", 1]}
+      ]
+    }]
+  ]
+}
