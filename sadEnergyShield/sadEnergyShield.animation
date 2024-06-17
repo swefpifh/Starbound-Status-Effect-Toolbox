@@ -1,0 +1,215 @@
+{
+  "animatedParts": {
+    "stateTypes": {
+      "shield": {
+        "priority": 2,
+        "default": "off",
+        "states": {
+          "off": {},
+          "hit": {
+            "frames": 8,
+            "cycle": 0.5,
+            "mode": "transition",
+            "transition": "off",
+            "properties": {
+              "immediateSound": "/sfx/npc/boss/cultistboss_blink.ogg"
+            }
+          },
+          "depleted": {
+            "frames": 4,
+            "cycle": 0.6,
+			"mode": "transition",
+            "transition": "off",
+            "properties": {
+			  "immediateSound": "/sfx/tech/tech_sphere_transform.ogg"
+            }
+          },
+          "activation": {
+            "frames": 8,
+            "cycle": 0.5,
+			"mode": "transition",
+            "transition": "off",
+            "properties": {
+			  "immediateSound": "/sfx/statuseffects/powerup.ogg"
+            }
+          }
+        }
+      },
+      "capabar": {
+        "priority": 2,
+        "default": "off",
+        "states": {
+          "off": {},
+		  "capacityBarDmg0": {},
+          "capacityBarDmg1": {},
+          "capacityBarDmg2": {},
+          "capacityBarDmg3": {},
+          "capacityBarDmg4": {},
+          "capacityBarDmg5": {},
+          "capacityBarDmg6": {},
+          "capacityBarDmg7": {},
+          "capacityBarDmg8": {},
+          "capacityBarDmg9": {},
+          "capacityBarDmg10": {},
+          "capacityBarDmg11": {},
+          "capacityBarDmg12": {},
+          "capacityBarDmg13": {},
+          "capacityBarDmg14": {},
+          "capacityBarDmg15": {},
+          "capacityBarDmg16": {},
+          "capacityBarDmg17": {},
+          "capacityBarDmg18": {},
+          "capacityBarDmg19": {},
+          "capacityBarDmg20": {}
+        }
+      }
+    },
+    "parts": {
+      "shield": {
+        "properties": {
+          "centered": true,
+		  "offset": [0, -0.5],
+		  "fullbright": true,
+		  "zLevel": 6
+        },
+        "partStates": {
+          "shield": {
+            "hit": {
+              "properties": {
+                "image": "sadEnergyShield.png:hit.<frame>"
+              }
+            },
+            "depleted": {
+              "properties": {
+                "image": "sadEnergyShield.png:depleted.<frame>"
+              }
+            },
+			"activation": {
+              "properties": {
+                "image": "sadEnergyShield.png:activation.<frame>"
+              }
+            }
+          }
+        }
+      },
+      "capabar": {
+        "properties": {
+          "centered": true,
+		  "fullbright": true,
+		  "offset": [0, 3],
+          "scale": 0,
+          "zLevel": 5
+        },
+        "partStates": {
+          "capabar": {
+			"capacityBarDmg0": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.0"
+              }
+            },
+            "capacityBarDmg1": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.1"
+              }
+            },
+            "capacityBarDmg2": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.2"
+              }
+            },
+            "capacityBarDmg3": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.3"
+              }
+            },
+            "capacityBarDmg4": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.4"
+              }
+            },
+            "capacityBarDmg5": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.5"
+              }
+            },
+            "capacityBarDmg6": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.6"
+              }
+            },
+            "capacityBarDmg7": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.7"
+              }
+            },
+            "capacityBarDmg8": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.8"
+              }
+            },
+            "capacityBarDmg9": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.9"
+              }
+            },
+            "capacityBarDmg10": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.10"
+              }
+            },
+            "capacityBarDmg11": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.11"
+              }
+            },
+            "capacityBarDmg12": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.12"
+              }
+            },
+            "capacityBarDmg13": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.13"
+              }
+            },
+            "capacityBarDmg14": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.14"
+              }
+            },
+            "capacityBarDmg15": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.15"
+              }
+            },
+            "capacityBarDmg16": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.16"
+              }
+            },
+            "capacityBarDmg17": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.17"
+              }
+            },
+            "capacityBarDmg18": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.18"
+              }
+            },
+            "capacityBarDmg19": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.19"
+              }
+            },
+            "capacityBarDmg20": {
+              "properties": {
+                "image": "capacityBar.png:dmgBar.20"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "frameGrid" : {
+    "size" : [22, 3],
+    "dimensions" : [21, 1],
+    "names" : [
+      [ "dmgBar.0", "dmgBar.1", "dmgBar.2", "dmgBar.3", "dmgBar.4", "dmgBar.5", "dmgBar.6", "dmgBar.7", "dmgBar.8", "dmgBar.9", "dmgBar.10", "dmgBar.11", "dmgBar.12", "dmgBar.13", "dmgBar.14", "dmgBar.15", "dmgBar.16", "dmgBar.17", "dmgBar.18", "dmgBar.19", "dmgBar.20" ]
+    ],
+
+  "aliases" : {
+    "fullBar" : "dmgBar.0",
+	"emptyBar" : "dmgBar.20"
+    }
+  }
+}

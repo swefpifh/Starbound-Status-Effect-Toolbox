@@ -1,0 +1,35 @@
+{
+  "name" : "sadEnergyShield",
+  "defaultDuration" : 1,
+  
+  "label": "Energy Shield",
+  "icon": "/sadEnergyShield/sadEnergyShieldIcon.png",
+
+  "scripts" : [ "sadEnergyShield.lua" ],
+  "scriptDelta" : 10,
+
+  "animationConfig" : "sadEnergyShield.animation",
+  "effectConfig": {
+	"capacityBar": 1, 	// How much damage the shield can take before depleting, shield takes damage before you do
+	"capacityBarFrameNum": 20, 	// Width of your capacitor bar in pixels (not the width of your image)
+	
+	"shieldCapacity": 100, 		// How much damage the shield can take before depleting (HP), shield takes damage before you do
+    "shieldRechargeRate": 10, 	// Seconds before shield starts to recharge after taking damage or depletion
+    "shieldRechargeDelay": 5, 	// Capacity gained per second while shield is recharging
+	
+	"shieldHitDamageMin": 15, 	// Used to define the minimum damage received on the shield
+	"shieldHitDamageMax": 25, 	// Used to define the maximum damage received on the shield
+	
+	"genProtection": 1, 	// Allows you to avoid general damage (0 > 1)
+	
+	"resistFire": 0, 		// Allows you to avoid fire damage (-1 > 0 > 1) a negative figure amplifies the damage
+	"resistIce": 0, 		// Allows you to avoid ice damage (-1 > 0 > 1) a negative figure amplifies the damage
+	"resistElectric": 0, 	// Allows you to avoid electric damage (-1 > 0 > 1) a negative figure amplifies the damage
+	"resistPoison": 0, 		// Allows you to avoid poison damage (-1 > 0 > 1) a negative figure amplifies the damage
+	
+	"immuFire": 0, 			// Makes you immune to fire damage (0 > 1)
+	"immuIce": 0, 			// Makes you immune to ice damage (0 > 1)
+	"immuElectric": 0, 		// Makes you immune to electric damage (0 > 1)
+	"immuPoison": 0 		// Makes you immune to poison damage (0 > 1)
+  }
+}

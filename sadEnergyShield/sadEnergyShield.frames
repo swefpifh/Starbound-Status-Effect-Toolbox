@@ -1,0 +1,9 @@
+{
+  "frameGrid" : {
+    "size" : [45, 45],
+    "dimensions" : [20, 1],
+    "names" : [
+      [ "hit.1", "hit.2", "hit.3", "hit.4", "hit.5", "hit.6", "hit.7", "hit.8", "depleted.1", "depleted.2", "depleted.3", "depleted.4", "activation.1", "activation.2", "activation.3", "activation.4", "activation.5", "activation.6", "activation.7", "activation.8" ]
+    ]
+  }
+}

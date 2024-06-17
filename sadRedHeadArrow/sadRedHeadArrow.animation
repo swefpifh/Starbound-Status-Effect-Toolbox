@@ -19,6 +19,7 @@
           "centered": true,
           "fullbright": true,
           "offset": [0, 3],
+		  "scale" : 0.5,
 		  "zLevel" : 2
         },
 
